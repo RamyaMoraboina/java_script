@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="event_delegation.js" defer></script>
+    <style>
+    
+           
+        
+        .grandparent{
+            background-color: blue;
+            height:200px;
+            width:200px;
+
+        }
+        .parent{
+            background-color: red;
+            height:120px;
+            width:120px;
+            
+        }
+        .child{
+            background-color: green;
+            height:60px;
+            width:60px;
+        }
+        body,.parent,.grandparent{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="grandparent">
+        <div class="parent">
+            
+            <div class="child">
+
+            </div>
+        </div>
+    </div>
+
+   
+</body>
+</html>
