@@ -84,7 +84,8 @@ const arr1 = ['JAN','FEB','MAR','APR','MAY'];
 
 let arr2;
 
-// (function() {
+//IMMEDIATLY INVOKED FUNCTION :
+//  (function() {
 //     arr2 =arr1; // both arrays have same address and any chane made in arr1 orarr2 it reflects another array
 //     arr1[0] ='potato';
 // })();
